@@ -1,0 +1,65 @@
+Javascript Looping
+=>While Loop
+It loops through a block of code as long as the specified condition is true.
+syntax:
+  while(condition)
+  {
+    //block of code (code will execute until condition is true)
+  }
+ Examples:
+   var countdown = 10;
+   var i =0;
+   while(i < countdown)
+   {
+    console.log(countdown);
+    countdown--;
+   }
+   ***-----------------------------------****
+   =>Do-While Loop
+   It will execute the body first then checks the condition satisfies or not.
+   syntax:
+   do{
+    //block of code
+   }while(condition)
+   Example:
+   let count =0;
+   do{
+    console.log(count);
+    count ++;
+   }while(count<5)
+   ***-----------------------------------****
+Javascript Math Methods
+=>Math.floor (It takes base values and if it is negative value then it takes next nearest integer)
+console.log(Math.floor(5.9));//5
+console.log(Math.floor(-4.9));//-5
+=>Math.ceil
+console.log(Math.ceil(5.1));//6
+console.log(Math.ceil(-4.9));//-4
+=>Math.round
+console.log(Math.round(5.4));//5
+console.log(Math.round(6.6));//7
+=>Math.sqrt
+console.log(Math.sqrt(0));//
+console.log(Math.sqrt(-2));//
+console.log(Math.sqrt(25));//
+=>Math.cbrt
+console.log(Math.cbrt(27));
+console.log(Math.cbrt(125));
+console.log(Math.cbrt(-125));
+==>Math.abs
+console.log(Math.abs(-4.5));
+console.log(Math.abs(-4.8));
+console.log(Math.abs(-4.4));
+==>Math.trunc
+console.log(Math.trunc(4.5));
+console.log(Math.trunc(4.8));
+console.log(Math.trunc(4.4));
+==>Math.min
+console.log(Math.min(3,25,49,3.28));
+==>Math.max
+console.log(Math.max(3,25,49,3.28));
+==>Math.pow
+console.log(Math.pow(2,5));
+//2*2*2*2*2
+==>Math.random(Generates a random number from 0 to 9 with decimals)
+console.log(Math.random()*10);
